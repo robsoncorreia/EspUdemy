@@ -1,8 +1,9 @@
-﻿using System;
+﻿using EspUdemy.TipoPagina.Carousel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+
 namespace EspUdemy
 {
     public partial class App : Application
@@ -11,7 +12,7 @@ namespace EspUdemy
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new IntroductionPage();
         }
 
         protected override void OnStart()

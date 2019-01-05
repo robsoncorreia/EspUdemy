@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             BackgroundColor="LightSkyBlue"
-             x:Class="EspUdemy.TipoPagina.Carousel.Page3">
+             Title="Titulo da Navigation 2"
+             x:Class="EspUdemy.TipoPagina.Navigation.Page2">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand">
-            <Label Text="Tipo de Pagina"
-                   TextColor="Blue"
+        <StackLayout>
+            <Label Text="Eu sou a segunda pagina."
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand" />
-            <Button Clicked="Button_Clicked" Image="play.png" BackgroundColor="Transparent" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

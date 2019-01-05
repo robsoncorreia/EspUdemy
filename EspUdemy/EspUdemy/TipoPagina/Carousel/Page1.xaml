@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="LightSkyBlue"
              x:Class="EspUdemy.TipoPagina.Carousel.Page1">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand">
             <Label Text="Tipo de Pagina"
+                   TextColor="Blue"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand" />
-            <Image />
+            <Image Source="xamarin.png" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

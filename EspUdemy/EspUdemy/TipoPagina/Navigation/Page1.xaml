@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Titulo da Navigation"
+             x:Class="EspUdemy.TipoPagina.Navigation.Page1">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisa"  Icon="baseline_search_white_18dp.png" />
+        <ToolbarItem Text="Detalhes" Icon="baseline_details_white_18dp.png" />
+        <ToolbarItem Text="Orderna" Icon="baseline_sort_white_18dp.png" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Eu sou Content Page."
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Ir para pagina 2" Clicked="Button_Clicked" />
+            <Button Text="Chamar Modal" Clicked="Button_Clicked_1" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
